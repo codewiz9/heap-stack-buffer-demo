@@ -1,8 +1,8 @@
 namespace MemoryDemo;
 
-static class HeapDemo
+static partial class Program
 {
-    public static void Run()
+    static void RunHeapDemo()
     {
         Console.WriteLine("=== HEAP DEMO ===");
     }

@@ -1,8 +1,8 @@
 namespace MemoryDemo;
 
-static class StackDemo
+static partial class Program
 {
-    public static void Run()
+    static void RunStackDemo()
     {
         Console.WriteLine("=== STACK DEMO ===");
     }

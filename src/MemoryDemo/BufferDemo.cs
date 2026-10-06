@@ -1,8 +1,8 @@
 namespace MemoryDemo;
 
-static class BufferDemo
+static partial class Program
 {
-    public static void Run()
+    static void RunBufferDemo()
     {
         Console.WriteLine("=== BUFFER DEMO ===");
     }
