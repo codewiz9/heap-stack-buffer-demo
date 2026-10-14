@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug MemoryDemo",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build MemoryDemo",
+            "program": "${workspaceFolder}/src/MemoryDemo/bin/Debug/net10.0/MemoryDemo.dll",
+            "cwd": "${workspaceFolder}/src/MemoryDemo",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        }
+    ]
+}
