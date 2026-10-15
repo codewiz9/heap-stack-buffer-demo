@@ -6,9 +6,9 @@ static partial class Program
 {
     static void Main()
     {
-        RunStackDemo();
-        RunHeapDemo();
-        RunBufferDemo();
-        RunDebugDemo();
+        RunWithDiagnostics("Stack", RunStackDemo);
+        RunWithDiagnostics("Heap", RunHeapDemo);
+        RunWithDiagnostics("Buffer", RunBufferDemo);
+        RunWithDiagnostics("Debugging tools", RunDebugDemo);
     }
 }
