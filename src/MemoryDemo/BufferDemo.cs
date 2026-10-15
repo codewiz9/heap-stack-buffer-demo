@@ -3,7 +3,7 @@ namespace MemoryDemo;
 static partial class Program
 {
     // capacity of buffer.
-    const int BufferSize = 1024;
+    const int BufferSize = 8192;
 
     // how many bytes of the first chunk to print
     const int BufferPreviewBytes = 12;
